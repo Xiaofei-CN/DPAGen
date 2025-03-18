@@ -10,8 +10,24 @@ Official implementation of "Disentangled Pose and Appearance Guidance for Multi-
 
 ## Installation
 
-To deploy and run GPS-Gaussian, run the following scripts:
+To deploy and run DPAGen, run the following scripts:
 ```
 conda env create --file environment.yml
 conda activate dpagen
+```
+## Quickstart
+
+```
+python demo.py \
+--test_data_root 'PATH/TO/REAL_DATA' \
+--ckpt_path 'PATH/TO/GPS-GS_stage2_final.pth' \
+--src_view 0 1 \
+--ratio=0.5
+```
+
+# Citation
+
+If you find this code useful for your research, please consider citing:
+```
+TBD
 ```

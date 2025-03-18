@@ -7,3 +7,11 @@ Official implementation of "Disentangled Pose and Appearance Guidance for Multi-
 
 ## Method
 <img src=figure/overview.png>
+
+## Installation
+
+To deploy and run GPS-Gaussian, run the following scripts:
+```
+conda env create --file environment.yml
+conda activate dpagen
+```

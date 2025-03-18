@@ -20,7 +20,7 @@ conda activate dpagen
 ```
 python demo.py \
 --test_data_root 'PATH/TO/REAL_DATA' \
---ckpt_path 'PATH/TO/GPS-GS_stage2_final.pth' \
+--ckpt_path 'PATH/TO/final.pth' \
 --src_view 0 1 \
 --ratio=0.5
 ```

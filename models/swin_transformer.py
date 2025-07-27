@@ -1,7 +1,4 @@
-"""
-@author: Yanzuo Lu
-@author: oliveryanzuolu@gmail.com
-"""
+
 
 import logging
 import numpy as np

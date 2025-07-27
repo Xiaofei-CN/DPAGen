@@ -1,7 +1,4 @@
-"""
-@author: Yanzuo Lu
-@author: oliveryanzuolu@gmail.com
-"""
+
 
 import torch
 import torch.nn as nn

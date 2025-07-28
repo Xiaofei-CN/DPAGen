@@ -12,8 +12,12 @@ Official implementation of "Disentangled Pose and Appearance Guidance for Multi-
 
 To deploy and run DPAGen, run the following scripts:
 ```
-conda env create --file environment.yml
+conda create -n dpagen python=3.10 -y
 conda activate dpagen
+
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+
+pip install  -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 ```
 
 # Citation

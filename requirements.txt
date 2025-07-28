@@ -1,0 +1,17 @@
+gpustat==1.1
+omegaconf
+accelerate==0.23.0
+tensorboard==2.13.0
+wandb==0.15.11
+einops==0.3.0
+opencv-python==4.7.0.72
+timm==0.9.7
+diffusers==0.19.3
+safetensors==0.3.1
+scipy==1.10.1
+lpips==0.1.4
+transformers==4.35.0
+xformers==0.0.21
+yacs==0.1.6
+pandas==2.0.3
+scikit-image==0.20.0
